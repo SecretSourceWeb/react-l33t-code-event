@@ -7,7 +7,10 @@ export function useToggle(initial: boolean): [boolean, () => void] {
 
 // Demo: Light On/Off
 export function App() {
-  // modify as desired
+
+  // update me!
+  const on = false;
+
   return (
     <div
       style={{
@@ -38,8 +41,10 @@ export function App() {
         <button
           role="switch"
           aria-checked={on}
-          onClick={toggle}
-          onKeyDown={onKeyDown}
+          // update me!
+          onClick={() => {}}
+          // update me!
+          onKeyDown={() => {}}
           style={{
             fontSize: 18,
             padding: "10px 16px",
