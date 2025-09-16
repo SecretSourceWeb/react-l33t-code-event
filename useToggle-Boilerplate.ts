@@ -1,15 +1,11 @@
 import * as React from "react";
-
-// Minimal toggle hook
+ 
 export function useToggle(initial: boolean): [boolean, () => void] {
   // your code here
 }
-
-// Demo: Light On/Off
-export function App() {
-
-  // update me!
-  const on = false;
+ 
+export function App() { 
+  const on = false; // update me!
 
   return (
     <div
@@ -40,11 +36,9 @@ export function App() {
         />
         <button
           role="switch"
-          aria-checked={on}
-          // update me!
-          onClick={() => {}}
-          // update me!
-          onKeyDown={() => {}}
+          aria-checked={on} 
+          onClick={() => {}} // update me! 
+          onKeyDown={() => {}} // update me!
           style={{
             fontSize: 18,
             padding: "10px 16px",
