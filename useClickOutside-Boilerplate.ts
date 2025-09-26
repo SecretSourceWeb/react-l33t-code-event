@@ -6,7 +6,7 @@ function useClickOutside(ref: React.RefObject<HTMLElement>, onClickOutside: () =
 
 const SLEPPY_CAT = "🐱"
 const HAPPY_CAT = "😻"
-const ENGRY_CAT = "😾"
+const ANGRY_CAT = "😾"
 
 export  function App() {
   const [mood, setMood] = useState(SLEPPY_CAT);
